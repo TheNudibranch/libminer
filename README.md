@@ -4,6 +4,8 @@
 # libminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/TheNudibranch/libminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/TheNudibranch/libminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of libminer is to provide an overview of your R library setup.
@@ -32,7 +34,7 @@ lib_summary()
 #>                                                                  Library
 #> 1                                     C:/Program Files/R/R-4.2.2/library
 #> 2                        C:/Users/404025/AppData/Local/R/win-library/4.2
-#> 3 C:/Users/404025/AppData/Local/Temp/RtmpGqVFcX/temp_libpath2844201d1c56
+#> 3 C:/Users/404025/AppData/Local/Temp/RtmpGqVFcX/temp_libpath28445d40218c
 #>   n_packages
 #> 1        108
 #> 2        222
@@ -42,9 +44,9 @@ lib_summary(sizes=TRUE)
 #>                                                                  Library
 #> 1                                     C:/Program Files/R/R-4.2.2/library
 #> 2                        C:/Users/404025/AppData/Local/R/win-library/4.2
-#> 3 C:/Users/404025/AppData/Local/Temp/RtmpGqVFcX/temp_libpath2844201d1c56
+#> 3 C:/Users/404025/AppData/Local/Temp/RtmpGqVFcX/temp_libpath28445d40218c
 #>   n_packages  lib_size
 #> 1        108 209401130
 #> 2        222 657644849
-#> 3          1     12932
+#> 3          1     12931
 ```
